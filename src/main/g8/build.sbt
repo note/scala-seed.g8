@@ -1,4 +1,5 @@
 import Common._
+import Dependencies._
 
 lazy val root = (project in file("."))
   .commonSettings("$name$", "$version$")
@@ -8,5 +9,3 @@ lazy val root = (project in file("."))
       scalatest
     )
   )
-
-
