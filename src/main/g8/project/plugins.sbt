@@ -1,2 +1,2 @@
-addSbtPlugin("com.softwaremill.sbt-softwaremill" % "sbt-softwaremill-common" % "1.9.5")
-addSbtPlugin("org.scalameta"     % "sbt-scalafmt" % "2.3.4")
+addSbtPlugin("com.softwaremill.sbt-softwaremill" % "sbt-softwaremill-common" % "1.9.11")
+addSbtPlugin("org.scalameta"     % "sbt-scalafmt" % "2.4.2")
