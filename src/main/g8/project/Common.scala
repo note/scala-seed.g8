@@ -13,7 +13,8 @@ object Common {
       scalaVersion := "2.13.3",
       scalafmtOnCompile := true,
 
-      commonSmlBuildSettings
+      commonSmlBuildSettings,
+      testFrameworks += new TestFramework("munit.Framework")
     )
   }
 }
