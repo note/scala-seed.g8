@@ -1,12 +1,7 @@
 package example
 
-import org.scalactic.TypeCheckedTripleEquals
-import org.scalatest.wordspec.AnyWordSpec
-
-class SomeSpec extends AnyWordSpec with TypeCheckedTripleEquals {
-	"2 + 2" should {
-		"equal 4" in {
-			assert((2 + 2) === 4)
-		}
+class SomeSpec extends munit.FunSuite {
+	test("2 + 2 should equal 4") {
+		assertEquals(2 + 2, 4)
 	}
 }
