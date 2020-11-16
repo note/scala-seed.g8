@@ -14,6 +14,7 @@ object Common {
       scalafmtOnCompile := true,
 
       commonSmlBuildSettings,
+      scalacOptions += "-Ymacro-annotations",
       testFrameworks += new TestFramework("munit.Framework")
     )
   }
