@@ -1,11 +1,7 @@
 import Common._
-import Dependencies._
 
 lazy val root = (project in file("."))
   .commonSettings("$name$", "$version$")
   .settings(
-    libraryDependencies ++= Seq(
-      cats,
-      scalatest
-    )
+    libraryDependencies ++= Dependencies.all
   )
