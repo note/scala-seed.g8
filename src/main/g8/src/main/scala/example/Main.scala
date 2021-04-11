@@ -1,6 +1,6 @@
 package example
 
 @main
-def hello(args: Array[String]): Unit =
+def hello(): Unit =
   println("Hello world!")
 
