@@ -10,11 +10,10 @@ object Common {
       organization := "$organization$",
       version := versionArg,
 
-      scalaVersion := "2.13.5",
+      scalaVersion := "3.0.0-RC2",
       scalafmtOnCompile := true,
 
       commonSmlBuildSettings,
-      scalacOptions += "-Ymacro-annotations",
       testFrameworks += new TestFramework("munit.Framework")
     )
   }
