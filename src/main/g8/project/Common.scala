@@ -10,7 +10,7 @@ object Common {
       organization := "$organization$",
       version := versionArg,
 
-      scalaVersion := "3.3.1",
+      scalaVersion := "3.5.0",
       scalafmtOnCompile := true,
 
       commonSmlBuildSettings,
